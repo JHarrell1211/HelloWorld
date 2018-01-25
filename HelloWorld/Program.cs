@@ -13,7 +13,7 @@ namespace HelloWorld
         {
             // Part one greetings statement
             //string messageOne = "Hello World!";
-            //string messageTwo = "I am Spartacus";
+            string messageTwo = "I am Spartacus";
 
             //// Part two set initial Spartacus attributes
             //int ageOne = 35;
@@ -22,8 +22,8 @@ namespace HelloWorld
             //double heightTwo = 91.45;
             //float weightOne = 210.0284606f;
             //float weightTwo = 331.12345678f;
-            //bool isGodLikeOne = true;
-            //bool isGodLikeTwo = false; 
+            bool isGodLikeOne = true;
+            bool isGodLikeTwo = false;
             //char genderMale =  'M';
             //char genderFemale = 'F';
 
@@ -157,28 +157,28 @@ namespace HelloWorld
             //        Console.WriteLine("You will operate the catapault");
             //        break;
 
-            //    default:
-            //        Console.WriteLine("You will ride horseback");
-            //        break;
+            ////    default:
+            ////        Console.WriteLine("You will ride horseback");
+            ////        break;
 
-            //}
+            ////}
 
-            //Part 14
-            string[] foodList = new string[5];
-            foodList[0] = "Milk";
-            foodList[1] = "Fruit";
-            foodList[2] = "Meat";
-            foodList[3] = "Wine";
-            foodList[4] = "Bread";
+            ////Part 14
+            //string[] foodList = new string[5];
+            //foodList[0] = "Milk";
+            //foodList[1] = "Fruit";
+            //foodList[2] = "Meat";
+            //foodList[3] = "Wine";
+            //foodList[4] = "Bread";
 
             //Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodList[0], foodList[1], foodList[2], foodList[3], foodList[4]);
 
-            int[] foodAmount = new int[5];
-            foodAmount[0] = 1000;
-            foodAmount[1] = 100;
-            foodAmount[2] = 2000;
-            foodAmount[3] = 10000;
-            foodAmount[4] = 1500;
+            //int[] foodAmount = new int[5];
+            //foodAmount[0] = 1000;
+            //foodAmount[1] = 100;
+            //foodAmount[2] = 2000;
+            //foodAmount[3] = 10000;
+            //foodAmount[4] = 1500;
 
             //Console.WriteLine("{0}, {1}, {2}, {3}, {4} \n", foodAmount[0], foodAmount[1], foodAmount[2], foodAmount[3], foodAmount[4]);
 
@@ -277,20 +277,56 @@ namespace HelloWorld
             //    Console.WriteLine(foodAmount[i] + " " + foodList[i]);
             //}
 
-            int size = 5;    //Equals the max number of columns and rows
-            int i, k;
-            for (i = 0; i <= size; i++)
-            {
-                for (k = 0; k < i; k++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine("");
+            //int size = 5;    //Equals the max number of columns and rows
+            //int i, k;
+            //for (i = 0; i <= size; i++)
+            //{
+            //    for (k = 0; k < i; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //Console.ReadLine();
+
+            //Part 16 Methods
+
+        //    int ageOne = 35;
+        //    int ageTwo = 34;
+        //    bool isGodLike = true; // I am not showing all the code.
+        //    isGodLikeOne = IsGodLike(ageOne);
+        //    Console.WriteLine("To say our hero is God like is " + isGodLikeOne);
+        //    isGodLikeOne = IsGodLike(ageTwo);
+        //    Console.WriteLine("To say our hero is God like is " + isGodLikeOne + "\n");
+        //    Console.WriteLine(Reverse(messageTwo));
+        //}
+
+        //    static bool IsGodLike(int age)
+        //    {
+        //        bool status;
+
+        //        if (age % 2 == 0)
+        //        {
+        //            status = false;
+        //        }
+            //    else
+            //    {
+            //        status = true;
+            //    }
+            //    return status;
+            //}
+            //static string Reverse(string text)
+            //{
+            //    char[] cArray = text.ToCharArray();
+            //    string reverse = " ";
+
+            //    for (int i = cArray.Length - 1; i > -1; i--)
+            //    {
+            //        reverse += cArray[i];
+            //    }
+            //    return reverse;
             }
-            Console.ReadLine();
 
         }
-
     }
-}
  
